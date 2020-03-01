@@ -28,7 +28,8 @@ a {
 
 }
 .slide-menu{
-  float:right;
+  position:fixed;
+  left:60%;
   width:40%;
   height:100vh;
   background-color:#1D1F33;
@@ -121,8 +122,37 @@ a {
 
 .close-item{
   float:right;
+  height:3.5vh;
   padding: 1.5rem;
   background-color:#252B3D;
   color:white;
   font-size:1.5rem;
+}
+.main-center{
+  height:83vh;
+}
+.testimonial-line{
+  display:inline-block;
+  padding:.7rem;
+  height:12.5vh;
+  width:100%;
+}
+.imgbox{
+  float:left;
+  margin-left: 2vw;
+  width:7vw;
+  height:7vw;
+  background-image: url('assets/profilepic1.jpeg');
+  background-size: cover;
+}
+.textwrap{
+  color:white;
+  font-family: 'Spartan', sans-serif;
+  line-height:1.5;
+  width:25vw;
+  padding-top:4vh;
+  padding-left:12vw;
+}
+.textwrap h2{
+  text-align:right;
 }
