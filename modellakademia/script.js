@@ -1,13 +1,14 @@
 function hideSidebar (){
-  $("#main-block").width('100%');
-  $("#sidemenu").hide();
-  $("#right-arrow").hide();
+  $("#main-block").animate({width: '100%'},1000);
+  $("#sidemenu").animate({left: '100%'},1000);
+  $("#right-arrow").animate({left: '100%'},1000);
   $("#left-arrow").show();
+  $("#left-arrow").position("fixed");
 }
 
 function showSidebar (){
-  $("#main-block").width('60%');
-  $("#sidemenu").show();
-  $("#right-arrow").show();
+  $("#main-block").animate({width: '60%'}, 1000);
+  $("#sidemenu").animate({left: '60%'}, 1000);
+  $("#right-arrow").animate({left: '53.5%'},1000);
   $("#left-arrow").hide();
 }

@@ -10,7 +10,6 @@ a {
 }
 
 #left-arrow{
-
   display:none;
 }
 
@@ -46,7 +45,7 @@ a {
   width:100%;
   float:left;
   padding-left:15%;
-  padding-bottom:4vh;
+  padding-bottom:3vh;
 }
 
 .headnav li{
@@ -109,6 +108,7 @@ a {
   height:8vh;
   margin-bottom:1vh;
   padding-left:5%;
+  font-size:.9rem;
 }
 
 #submit {
@@ -141,19 +141,36 @@ a {
   color:white;
   margin:1vh 10%;
   font-size:.9rem;
-  line-height:1.4;
+  line-height:1.8;
 }
 
 /* Left block */
 
 .close-item{
-  float:right;
-  height:3.5vh;
-  padding: 1.5rem;
-  background-color:#252B3D;
+  margin-left:90%;
   color:white;
   font-size:1.5rem;
 }
+.fa.fa-bars{
+  position:fixed;
+  left:53.5%;
+  background-color:#1D1F33;
+  padding: 2rem;
+  height:3.5vh;
+}
+.fa.fa-bars:hover{
+  color:#FFB838;
+  cursor: pointer;
+}
+#left-arrow{
+  position:fixed;
+  left:92%;
+  background-color:#252B3D;
+  padding: 1.5rem;
+  margin-top:2rem;
+  height:3.5vh;
+}
+
 .main-center{
   height:83vh;
 }
@@ -162,6 +179,7 @@ a {
   padding:.7rem;
   height:12.5vh;
   width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .imgbox{
   float:left;
@@ -186,5 +204,5 @@ a {
 main {
   width:100%;
   height:100vh;
-  background-color: #4B5968;
+  background-color: #252B3D;
 }
