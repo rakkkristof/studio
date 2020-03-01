@@ -10,6 +10,7 @@ a {
 }
 
 #left-arrow{
+
   display:none;
 }
 
@@ -36,8 +37,30 @@ a {
   font-family: 'Spartan', sans-serif;
 }
 
+.headnav{
+
+}
+
+.headnav ul {
+  color:white;
+  width:100%;
+  float:left;
+  padding-left:15%;
+  padding-bottom:4vh;
+}
+
+.headnav li{
+  padding:1.5rem;
+  padding-right:2rem;
+  display:inline-block;
+  float:left;
+}
+.headnav li:hover{
+  color:#FFB838;
+}
 .logo-line{
   height:20vh;
+  padding-bottom:2vh;
 }
 .logo-line h1 {
   padding-top:7vh;
@@ -94,6 +117,9 @@ a {
   background-color:#DAA13A;
   text-align: center;
   padding:3vh 1vw;
+}
+#submit:hover {
+  background-color:#A47623;
 }
 
 #label{
@@ -155,4 +181,10 @@ a {
 }
 .textwrap h2{
   text-align:right;
+}
+
+main {
+  width:100%;
+  height:100vh;
+  background-color: #4B5968;
 }
