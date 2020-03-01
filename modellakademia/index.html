@@ -5,15 +5,22 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="cssreset.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Spartan&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/08b4d258dd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <title>Modell Akadémia</title>
   </head>
   <body>
     <header>
-        <div class="main-block">
+        <div class="main-block" id="main-block">
             <div class="background-overlay">
+              <div class="close-item">
+                <i class="fa fa-chevron-right" id="right-arrow" onclick="hideSidebar()"></i>
+                <i class="fa fa-chevron-left" id="left-arrow" onclick="showSidebar()"></i>
+              </div>
             </div>
         </div>
-        <div class="slide-menu">
+        <div class="slide-menu" id="sidemenu">
           <div class="logo-line">
             <div class="logoline-text">
               <h1>Modell Akadémia</h1>

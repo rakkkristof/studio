@@ -9,6 +9,10 @@ a {
   text-decoration:none;
 }
 
+#left-arrow{
+  display:none;
+}
+
 .background-overlay{
   z-index:0;
   background-color: rgba(16, 19, 30, 0.71);
@@ -111,4 +115,14 @@ a {
   margin:1vh 10%;
   font-size:.9rem;
   line-height:1.4;
+}
+
+/* Left block */
+
+.close-item{
+  float:right;
+  padding: 1.5rem;
+  background-color:#252B3D;
+  color:white;
+  font-size:1.5rem;
 }
