@@ -49,6 +49,7 @@ a {
 }
 
 .headnav li{
+  cursor: pointer;
   padding:1.5rem;
   padding-right:2rem;
   display:inline-block;
@@ -178,8 +179,8 @@ a {
   display:inline-block;
   padding:.7rem;
   height:12.5vh;
-  width:100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  width:98%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .imgbox{
   float:left;
