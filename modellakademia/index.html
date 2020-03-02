@@ -11,13 +11,13 @@
     <title>Modell Akadémia</title>
   </head>
   <body>
-    <header>
-        <div class="main-block" id="main-block">
+    <header onscroll="hideSidebar()">
+        <section class="main-block" id="main-block">
             <div class="background-overlay">
-              <div class="close-item">
+              <nav class="close-item">
                 <i class="fa fa-bars" id="right-arrow" onclick="hideSidebar()"></i>
                 <i class="fa fa-bars" id="left-arrow" onclick="showSidebar()"></i>
-              </div>
+              </nav>
               <div class="main-center"></div>
               <div class="testimonial-line">
                 <div class="imgbox"></div>
@@ -25,10 +25,9 @@
                   <h1>"Mindig is érdekelt a modellkedés...."</h1>
                   <h2>- Julcsi, 25</h2>
                 </div>
-
               </div>
             </div>
-        </div>
+        </section>
         <div class="slide-menu" id="sidemenu">
           <nav class="headnav">
             <ul>

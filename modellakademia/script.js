@@ -1,3 +1,5 @@
+
+
 function hideSidebar (){
   $("#main-block").animate({width: '100%'},1000);
   $("#sidemenu").animate({left: '100%'},1000);
@@ -12,3 +14,8 @@ function showSidebar (){
   $("#right-arrow").animate({left: '53.5%'},1000);
   $("#left-arrow").hide();
 }
+
+ /*
+$( window ).scroll(function() {
+    hideSidebar();
+})*/
